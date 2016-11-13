@@ -1,0 +1,104 @@
+body {
+	color: #000;
+  	font-size: 16px;
+  
+  	background-color: #fefbd8;
+  	/* font-family: 'Oxygen', sans-serif; */
+ 	 font-family: 'Lora', serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #618685;
+  border-radius: 0;
+  border: 0;
+
+}
+
+.navbar-brand {
+	padding-top: 12px;
+}
+
+.navbar-brand h1 { /* Company name */
+	color: #fff;
+  	font-family: 'Lora', serif;
+  
+  font-size: 1.5em;
+  vertical-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.container button.navbar-toggle, .icon-bar {
+	border: 1.5px solid #FFF;
+}
+
+.container button.navbar-toggle:hover, .icon-bar:hover {
+	background-color: #80ced6;
+}
+
+.container button.navbar-toggle:leave, .icon-bar:leave {
+	background-color: #618685;
+}
+
+#nav-list a {
+	color: #fff;
+	text-align: center;
+	font-size: 1.3em
+}
+
+#nav-list a:hover {
+	background: #80ced6;
+}
+
+
+/*** MAIN CONTENT ***/
+
+#menu-categories-title {
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+.main-text {
+	/*border: 1px solid black; */
+	background-color: #d5f4e6;
+	height: 1000px;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+/********** Extra small devices only **********/
+/* @media (max-width: 767px) {
+	.row {
+		margin-right: 15px;
+    	margin-left: 15px;
+	}
+}*/
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.3em;
+	}
+
+	/* Home page */
+
+	.row {
+		margin-right: 15px;
+    	margin-left: 15px;
+	}
+
+ 	/*.col-xxs-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 95%;
+  }*/
+}
